@@ -1,0 +1,129 @@
+.form{
+    height: fit-content;
+    min-height: 500px;
+    width: 30%;
+    min-width: 500px;
+    opacity: 70%;
+    border-radius: 5%;
+    text-align: center;
+    position: relative;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    /*background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1280px-Image_created_with_a_mobile_phone.png'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+    background-image: url(./Images/Norway.jpg);
+    background-size: cover; /* This ensures that the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    color: red;
+}
+
+.userinp {
+    padding: 20px;
+}
+
+.userinp input {
+    height: 40px;
+    width: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #967a2c;
+    color: aqua;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+    padding: 10px;
+}
+
+input::placeholder{
+    color: aqua;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+}
+
+button {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color:aqua;
+    height: 50px;
+    width: 40%;
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 20px;
+    border: none;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+label {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+hr{
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+*{
+    font-family: 'Quicksand', sans-serif;
+    color: #967a2c;
+    font-weight: bolder;
+}
+
+.shadow1{
+    background: linear-gradient(135deg, #070dba, #072566, #967a2c); /* Replace with your own color stops */
+    height: fit-content;
+    min-height: 500px;
+    width: 30%;
+    min-width: 500px;
+    opacity: 70%;
+    border-radius: 5%;
+    text-align: center;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    z-index: -1;
+}
+
+.addborder {
+    background: linear-gradient(135deg, #070dba, #072566, #967a2c); /* Replace with your own color stops */;
+    height: fit-content;
+    min-height: 500px;
+    width: 30%;
+    min-width: 500px;
+    opacity: 70%;;
+    border-radius: 5%;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border: 5px solid #967a2c;
+    margin: 0;
+}
+
+.shadow2{
+    background: linear-gradient(135deg, #070dba, #072566, #967a2c); /* Replace with your own color stops */;
+    height: fit-content;
+    min-height: 500px;
+    width: 30%;
+    min-width: 500px;
+    opacity: 70%;
+    border-radius: 5%;
+    text-align: center;
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    z-index: -2;
+}
